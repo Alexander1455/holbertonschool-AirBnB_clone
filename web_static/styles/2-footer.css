@@ -1,0 +1,18 @@
+/* styles/2-footer.css */
+footer {
+    background-color: #00FF00;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: calc(100% - 130px);
+  }
+  footer p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: white;
+  }
+  
