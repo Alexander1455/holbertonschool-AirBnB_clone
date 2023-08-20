@@ -1,0 +1,21 @@
+/* web_static/styles/3-header.css */
+header {
+    color: #484848;
+    background-color: white; 
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #CCCCCC;
+  }
+  
+header .logo {
+    margin-left: 20px;
+    width: 100px; /* Ajusta el ancho del logo */
+    height: 100%; /* Asegura que el logo ocupe la altura completa del encabezado */
+    background-image: url('/web_static/images/favicon.ico'); /* Ajusta la ruta de tu imagen de logo */
+    background-repeat: no-repeat;
+    background-size: contain; /* Ajusta el comportamiento de dimensiones según sea necesario */
+    background-position: center left; /* Ajusta la posición según sea necesario */
+    padding-left: 120px;
+}
