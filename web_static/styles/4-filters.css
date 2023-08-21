@@ -1,0 +1,28 @@
+/* web_static/styles/4-filters.css */
+.filters {
+    background-color: white;
+    height: 70px;
+    width: 100%;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  .filters button {
+    font-size: 18px;
+    background-color: #FF5A5F;
+    color: #FFFFFF;
+    height: 48px;
+    width: 20%;
+    border: none;
+    border-radius: 4px;
+    margin-left: 800px; /* Move the button to the left by 30px */
+    margin-right: auto; /* Move the button to the left edge of the section */
+    transition: opacity 0.3s;
+  }
+  
+  .filters button:hover {
+    opacity: 0.9;
+  }
