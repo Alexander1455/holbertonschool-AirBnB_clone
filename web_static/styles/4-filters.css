@@ -18,8 +18,7 @@
     width: 20%;
     border: none;
     border-radius: 4px;
-    margin-left: 800px; /* Move the button to the left by 30px */
-    margin-right: auto; /* Move the button to the left edge of the section */
+    margin-left: auto; /* Move the button to the left edge of the section */
     transition: opacity 0.3s;
   }
   
