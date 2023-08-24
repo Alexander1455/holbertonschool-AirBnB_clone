@@ -10,10 +10,6 @@
   padding: 0 20px;
 }
 
-.filters  button:hover {
-  opacity: 0.9;
-}
-
 /* Styles for the location class */
 .locations {
   border-right: 1px solid #DDDDDD;
