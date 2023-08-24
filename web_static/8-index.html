@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AirBnB clone</title>
+    <link rel="stylesheet" href="./styles/3-header.css">
+    <link rel="stylesheet" href="./styles/3-footer.css">
+    <link rel="stylesheet" href="./styles/4-common.css">
+    <link rel="stylesheet" href="./styles/6-filters.css">
+    <link rel="stylesheet" href="./styles/8-places.css">
+    <link rel="icon" type="image/x-icon" href="/web_static/images/favicon.ico">
+</head>
+<body>
+    <!-- Section of the header part -->
+    <header>
+        <div class="logo">
+        </div>
+    </header>
+
+    <!-- Section of the main part -->
+    <main>
+        <div class="container"> <!-- Section for page information search -->
+            <section class="filters">
+                <div class="locations"> <!-- Section that will show you the locations in different places -->
+                    <h3>States</h3>
+                    <h4>California, Arizona...</h4>
+                    <div class="popover"> <!-- Pull-out section for the states -->
+                        <ul>
+                            <li><h2>Arizona:</h2>
+                            <ul>
+                                <li>Page</li>
+                                <li>Page2</li>
+                            </ul></li>
+                            <li><h2>california:</h2>
+                            <ul>
+                                <li>San Francisco</li>
+                                <li>Los Altos</li>
+                            </ul></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="amenities"> <!-- Section that shows you the comforts that the client is looking for -->
+                    <h3>Amenities</h3>
+                    <h4>Internet, Kitchen...</h4>
+                    <div class="popover"> <!-- Pull-out section for the Amenities -->
+                        <ul>
+                            <li>Internet</li>
+                            <li>TV</li>
+                            <li>Kitchen</li>
+                            <li>Iron</li>
+                        </ul>
+                    </div>
+                </div>
+                <button>Search</button> <!-- Search button -->
+            </section>
+            
+            <!-- places section -->
+            <section class="places"> 
+                <h1>Places</h1>
+                <!-- Lodging information card section -->
+                <article>
+                    <h2>My home</h2>
+                    <div class="price_by_night"> <!-- Price information section -->
+                        <p>$80</p>
+                    </div>
+                    <div class="information"> <!-- Accommodation information section -->
+                        <div class="max_guest">
+                            <img src="./images/icon_group.png" alt="icon of a group of people">
+                            <p>2 Guest</p>
+                        </div>
+                        <div class="number_rooms">
+                            <img src="./images/icon_bed.png" alt="sleeping person icon">
+                            <p>1 Bedroom</p>
+                        </div>
+                        <div class="number_bathrooms">
+                            <img src="./images/icon_bath.png" alt="bathroom icon">
+                            <p>1 Bathroom</p>
+                        </div>
+                    </div>
+                    <div class="user"> <!-- User information section -->
+                        <p><b>Owner:</b> John Lennon</p>
+                    </div>
+                    <div class="description"> <!-- Description section about the rental place -->
+                        <p>Welcome to the perfect place for couples! Our cozy apartment offers a stylish room with a comfortable bed, and a relaxing bathroom. Located in a privileged location in the city, it is the ideal refuge for a romantic getaway. Book now and create unforgettable memories together!</p>
+                    </div>
+                </article>
+                <article>
+                    <h2>Tiny house</h2>
+                    <div class="price_by_night"> <!-- Price information section -->
+                        <p>$65</p>
+                    </div>
+                    <div class="information"> <!-- Accommodation information section -->
+                        <div class="max_guest">
+                            <img src="./images/icon_group.png" alt="">
+                            <p>4 Guest</p>
+                        </div>
+                        <div class="number_rooms">
+                            <img src="./images/icon_bed.png" alt="">
+                            <p>2 Bedroom</p>
+                        </div>
+                        <div class="number_bathrooms">
+                            <img src="./images/icon_bath.png" alt="">
+                            <p>1 Bathroom</p>
+                        </div>
+                    </div>
+                    <div class="user"> <!-- User information section -->
+                        <p><b>Owner:</b> Adrenne</p>
+                    </div>
+                    <div class="description"> <!-- Description section about the rental place -->
+                        <p>Discover our charming apartment for 4 people with 2 bedrooms, comfortable beds and a relaxing bathroom. Located in the heart of the city, it combines comfort and style for an unforgettable experience. Book now and live the urban life with elegance!</p>
+                    </div>
+                </article>
+                <article>
+                    <h2>A suite</h2>
+                    <div class="price_by_night"> <!-- Price information section -->
+                        <p>$190</p>
+                    </div>
+                    <div class="information"> <!-- Accommodation information section -->
+                        <div class="max_guest">
+                            <img src="./images/icon_group.png" alt="">
+                            <p>2 Guest</p>
+                        </div>
+                        <div class="number_rooms">
+                            <img src="./images/icon_bed.png" alt="">
+                            <p>1 Bedroom</p>
+                        </div>
+                        <div class="number_bathrooms">
+                            <img src="./images/icon_bath.png" alt="">
+                            <p>1 Bathroom</p>
+                        </div>
+                    </div>
+                    <div class="user"> <!-- User information section -->
+                        <p><b>Owner:</b>Albert Einstein</p>
+                    </div>
+                    <div class="description"> <!-- Description section about the rental place -->
+                        <p>We welcome you to an enclave of refinement designed for discerning couples. This exclusive apartment presents a luxuriously decorated room with a dream bed and an exquisite bathroom. Located in a coveted area of the city, this retreat will redefine your concept of indulgence. Secure your reservation for an unmatched experience of opulence and romance!</p>
+                    </div>
+                </article>
+            </section>
+        </div>
+    </main>
+
+    <!-- Section of the footer part -->
+    <footer>
+        Holberton School
+    </footer>
+</body>
+</html>
